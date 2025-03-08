@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Enrichmatic LI Cookies",
   "version": "1.0",
-  "description": "Extract LinkedIn cookies for use with Enrichmatic",
+  "description": "Extract LinkedIn cookies for secure authentication with Enrichmatic Sales Navigator data tools",
   "permissions": [
     "cookies",
     "tabs",
@@ -12,6 +12,8 @@
   "host_permissions": [
     "*://*.linkedin.com/*"
   ],
+  "author": "Enrichmatic",
+  "homepage_url": "https://www.enrichmatic.com/",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {

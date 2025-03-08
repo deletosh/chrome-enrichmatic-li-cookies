@@ -1,4 +1,22 @@
 // popup.js
+/**
+ * Enrichmatic LI Cookies Extension
+ *
+ * This script extracts LinkedIn cookies needed for authentication with Enrichmatic tools.
+ *
+ * Permission usage:
+ * - cookies: Used only to access LinkedIn domain cookies for authentication purposes
+ * - tabs: Used to check if the user is currently on LinkedIn before activating functionality
+ * - storage: Used to store only the timestamp of when cookies were last extracted
+ * - clipboardWrite: Used to copy the formatted cookies to clipboard for easy pasting
+ * - host permissions: Limited to LinkedIn domains only to access necessary cookies
+ *
+ * Privacy notes:
+ * - No data is sent to any servers
+ * - No personal information is stored
+ * - Cookies are only copied to the user's clipboard
+ * - All processing happens locally on the user's device
+ */
 document.addEventListener('DOMContentLoaded', function() {
   const extractButton = document.getElementById('extractButton');
   const statusMessage = document.getElementById('statusMessage');
